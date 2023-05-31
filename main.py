@@ -58,6 +58,24 @@ if num is 1: #The first If Statement for Hard Liquor
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
+    elif num1 == 3:#The nested second elif statement under Hard Liquor
+        print("You Have Chosen Jack Daniels 750ml Bottel")#option what have chosen
+        print("Please Select The Quantity")
+        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl1 = (quantityhl * 30)#multiplying the quantity with the price
+        print("Your Total will be")
+        print(quantityhl1)#getting the multiplied value
+        print("All The Rates Are In US$")
+        namehl = str(input("Please Enter Your Name:"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:"))#getting the address
+        print("Thank You For Your Order" + " " + namehl)
+        print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
+        print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
+        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
+        print("We Will Contact You Within 30 Mins After The Age Verification")
+        print("Thank you for your oder!")#Final Thank you message.
 elif num is 2:#The first Elif Statement for Red Wine
     print("You Have Chosen Red Wine")
     print("Below Are Our Options:")
