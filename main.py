@@ -76,6 +76,9 @@ if num is 1: #The first If Statement for Hard Liquor
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
+    else:#The Else Statement under main if statement
+        print("Invalid Number")#If the Number Invalid this message will appear
+        print(num1) 
 elif num is 2:#The first Elif Statement for Red Wine
     print("You Have Chosen Red Wine")
     print("Below Are Our Options:")
