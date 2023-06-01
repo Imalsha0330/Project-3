@@ -274,6 +274,9 @@ elif num is 4:#The first Elif Statement for Beer
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
+    else:#The Else Statement under main third elif statement
+        print("Invalid Number")#If the Number Invalid this message will appear
+        print(num1)
 else:#Else Statement if Entered a wrong value
     print("Invalid Number")
     print(num)
