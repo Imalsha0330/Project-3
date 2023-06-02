@@ -13,7 +13,7 @@ num = int(input("Please Enter a Number:"))
 result = None
 #input added to enter the number
 
-if num is 1: #The first If Statement for Hard Liquor
+if num == 1: #The first If Statement for Hard Liquor
     print("You Have Chosen Hard Liquor")
     print("Below Are Our Options:")
     print("Vodka 750ml 20$,", "Red Label 750ml 25$,", "Jack Daniels 750ml 30$")#Hard Liquor Options
@@ -79,7 +79,7 @@ if num is 1: #The first If Statement for Hard Liquor
     else:#The Else Statement under main if statement
         print("Invalid Number")#If the Number Invalid this message will appear
         print(num1) 
-elif num is 2:#The first Elif Statement for Red Wine
+elif num == 2:#The first Elif Statement for Red Wine
     print("You Have Chosen Red Wine")
     print("Below Are Our Options:")
     print("Burn Valley Vineyard Pinot Noir 2021 750ml 40$,", "Lyme Bay Pinot Noir 2020 750ml 45$,", "Denbies Pinot noir 2019 750ml 50$")#Red Wine Options
@@ -145,7 +145,7 @@ elif num is 2:#The first Elif Statement for Red Wine
     else:#The Else Statement under main first elif statement
         print("Invalid Number")#If the Number Invalid this message will appear
         print(num1)
-elif num is 3:#The first Elif Statement for White Wine
+elif num == 3:#The first Elif Statement for White Wine
     print("You Have Chosen White Wine")
     print("Below Are Our Options:")
     print("Conte Priola Pinot Grigio 750ml 38$,", "Joel Gott Sauvignon Blanc 750ml 42$,", "Whitehaven Sauvignon Blanc 750ml 48$")#White Wine Options
@@ -211,7 +211,7 @@ elif num is 3:#The first Elif Statement for White Wine
     else:#The Else Statement under main second elif statement
         print("Invalid Number")#If the Number Invalid this message will appear
         print(num1)  
-elif num is 4:#The first Elif Statement for Beer
+elif num == 4:#The first Elif Statement for Beer
     print("You Have Chosen Beer")
     print("Below Are Our Options:")
     print("Carlsberg 500ml 10$,", "Heineken 500ml 10$,", "Corona 500ml 10$")#Beer Options
