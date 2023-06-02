@@ -1,2 +1,2 @@
-web: gunicorn <main.py>:<app_variable_name>
-worker: python <main.py>.py
+Flask==2.0.1
+
