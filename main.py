@@ -9,7 +9,7 @@ print("Press Number 3 for White Wine")
 print("Press Number 4 for Beer")
 #Giving the option to select the prefered number
 
-num = int(input("Please Enter a Number:"))
+num = int(input("Please Enter a Number:\n"))
 result = None
 #input added to enter the number
 
@@ -20,59 +20,59 @@ if num == 1: #The first If Statement for Hard Liquor
     print("Press 1 For Vodka")#Giving Option to select the prefered one
     print("Press 2 For Red Label")
     print("Press 3 For Jack Daniel")
-    num1 = int(input("Please Enter a Number:"))#Input bar to Enter the Number
+    num1 = int(input("Please Enter a Number:\n"))#Input bar to Enter the Number
     result = None
     if num1 == 1:#The nested if statement under Hard Liquor
         print("You Have Chosen Vodka 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 20)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 2:#The nested elif statement under Hard Liquor
         print("You Have Chosen Red Label 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 25)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 3:#The nested second elif statement under Hard Liquor
         print("You Have Chosen Jack Daniels 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 30)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
@@ -86,59 +86,59 @@ elif num == 2:#The first Elif Statement for Red Wine
     print("Press 1 For Burn Valley Vineyard Pinot Noir 2021")#Giving Option to select the prefered one
     print("Press 2 For Lyme Bay Pinot Noir 2020")
     print("Press 3 For Denbies Pinot noir 2019")
-    num1 = int(input("Please Enter a Number:"))#Input bar to Enter the Number
+    num1 = int(input("Please Enter a Number:\n"))#Input bar to Enter the Number
     result = None
     if num1 == 1:#The nested if statement under Red Wine
         print("You Have Chosen Burn Valley Vineyard Pinot Noir 2021 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 40)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 2:#The nested elif statement under Red Wine
         print("You Have Chosen Lyme Bay Pinot Noir 2020 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 45)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 3:#The nested second elif statement under Red Wine
         print("You Have Chosen Denbies Pinot noir 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 50)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
@@ -152,59 +152,59 @@ elif num == 3:#The first Elif Statement for White Wine
     print("Press 1 For Conte Priola Pinot Grigio")#Giving Option to select the prefered one
     print("Press 2 For Joel Gott Sauvignon Blanc")
     print("Press 3 For Whitehaven Sauvignon Blanc")
-    num1 = int(input("Please Enter a Number:"))#Input bar to Enter the Number
+    num1 = int(input("Please Enter a Number:\n"))#Input bar to Enter the Number
     result = None
     if num1 == 1:#The nested if statement under White Wine
         print("You Have Chosen Conte Priola Pinot Grigio 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 38)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 2:#The nested first elif statement under White Wine
         print("You Have Chosen Joel Gott Sauvignon Blanc 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 42)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 3:#The nested second elif statement under White Wine
         print("You Have Chosen Whitehaven Sauvignon Blanc 750ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 48)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
@@ -218,59 +218,59 @@ elif num == 4:#The first Elif Statement for Beer
     print("Press 1 For Carlsberg")#Giving Option to select the prefered one
     print("Press 2 For Heineken")
     print("Press 3 For Corona")
-    num1 = int(input("Please Enter a Number:"))#Input bar to Enter the Number
+    num1 = int(input("Please Enter a Number:\n"))#Input bar to Enter the Number
     result = None
     if num1 == 1:#The nested if statement under Beer
         print("You Have Chosen Carlsberg 500ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 10)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 2:#The nested first elif statement under beer
         print("You Have Chosen Heineken 500ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 10)
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
     elif num1 == 3:#The nested second elif statement under beer
         print("You Have Chosen Corona 500ml Bottel")#option what have chosen
         print("Please Select The Quantity")
-        quantityhl = int(input("Please Enter Your Quantity:"))#Input bar to enter the quantity
+        quantityhl = int(input("Please Enter Your Quantity:\n"))#Input bar to enter the quantity
         quantityhl1 = (quantityhl * 10)#multiplying the quantity with the price
         print("Your Total will be")
         print(quantityhl1)#getting the multiplied value
         print("All The Rates Are In US$")
-        namehl = str(input("Please Enter Your Name:"))#getting the name
-        phhl = str(input ("Please Enter Your Phone Number:"))#getting the phone number
-        adhl = str(input("Please Enter Your Address:"))#getting the address
+        namehl = str(input("Please Enter Your Name:\n"))#getting the name
+        phhl = str(input ("Please Enter Your Phone Number:\n"))#getting the phone number
+        adhl = str(input("Please Enter Your Address:\n"))#getting the address
         print("Thank You For Your Order" + " " + namehl)
         print("One Of Our Delivery Agent Will Contact You," + " " + phhl + " " + "On This Number")
         print("And Once We Got an Order Confirmation From Your End, We Will Deliver Your Oder to" + " " + adhl)#confirmation message
-        idhl = str(input("Please Enter Your ID Number For Age Verification"))#Id Entering Input bar for age verification
+        idhl = str(input("Please Enter Your ID Number For Age Verification\n"))#Id Entering Input bar for age verification
         print("Your ID number" + " " + idhl + " " + "Is Under Age Verification Process")#Message about age verification
         print("We Will Contact You Within 30 Mins After The Age Verification")
         print("Thank you for your oder!")#Final Thank you message.
